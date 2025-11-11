@@ -141,7 +141,7 @@ abstract class AbstractGenerator implements GeneratorInterface
      * End XML element
      *
      * @param string $name
-     * @return XmlWrite
+     * @return void
      */
     abstract protected function closeXmlElement($name);
 }

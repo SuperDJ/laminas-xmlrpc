@@ -52,13 +52,11 @@ class XmlWriter extends AbstractGenerator
      * Close a previously opened XML element
      *
      * @param string $name
-     * @return XmlWriter
+     * @return void
      */
     protected function closeXmlElement($name)
     {
         $this->xmlWriter->endElement();
-
-        return $this;
     }
 
     /**
